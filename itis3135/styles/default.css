@@ -1,5 +1,4 @@
-body
-{
+body{
 	font-family:lobster;
 	color: #FBFBFB;
 	background-color: navy;
@@ -8,29 +7,19 @@ body
 	margin-right: 50px;
 }
 
-header
-{
+header{
 	margin-top: 75px;
 	margin-bottom: 75px;
 	text-align: center;
     border-color: #818AA3;
 }
 
-footer
-{
-    margin-top: 75px;
-    margin-bottom: 75px;
-    text-align: center;
-}
-
-main
-{
+main{
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-h1
-{
+h1{
 	font-family: lobster;
 	text-align: center;
 	line-height: 10px;
@@ -48,37 +37,39 @@ h3{
 	line-height: 10px;
 }
 
-a
-{
+a{
 	color: #FBFBFB;
 	font-weight: normal;
 }
 
-a:hover
-{
+a:hover{
 	text-decoration: underline;
 	color: #FBFBFB;
 }
 
-figure
-{
+figure{
 	text-align: center;
 }
 
-figcaption
-{
+figcaption{
 	font-style: normal;
 }
 
-nav
-{
+nav{
 	text-align: center;
 }
 
 
 
-p
-{
+p{
     text-align: center;
     font-size: 16px;
 }
+
+footer{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+

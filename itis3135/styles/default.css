@@ -1,11 +1,11 @@
 body
 {
-	font-family: lobster;
-	color: #FBFBFB ;
+	font-family:lobster;
+	color: #FBFBFB;
 	background-color: navy;
 
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 header
@@ -30,11 +30,24 @@ main
 	margin-right: 100px;
 }
 
-h1, h2, h3
+h1
 {
 	font-family: lobster;
 	text-align: center;
 	line-height: 10px;
+}
+
+h2{
+  font-family: lobster;
+	text-align: center;
+	line-height: 10px;
+}
+
+h3{
+  font-family: lobster;
+	text-align: left;
+	line-height: 10px;
+  font-size: 12px;
 }
 
 a
@@ -68,6 +81,6 @@ nav
 
 p
 {
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
-

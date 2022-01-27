@@ -59,7 +59,11 @@ nav{
 	text-align: center;
 }
 
-
+.jagheader-logo{
+	height: 150;
+	width: 100;
+	float: left;
+}
 
 p{
     text-align: center;

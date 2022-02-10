@@ -42,15 +42,11 @@ a:hover
 	color: #39393A;
 }
 
-figure
+.hockeypic
 {
 	text-align: center;
 }
 
-figcaption
-{
-	font-style: normal;
-}
 
 nav
 {
@@ -98,6 +94,38 @@ footer
 .athlete
 {
 	margin-left: 240px
+}
+
+.basic_table
+{
+	text-align: left;
+}
+
+table{
+	border-collapse: collapse;
+  }
+
+th,td
+{
+	border:1px solid #FDFFFC;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+th
+{
+	background-color: #7C9299;
+}
+
+.manager
+{
+	background-color: #7C9299;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: #7C9299;
 }
 
 

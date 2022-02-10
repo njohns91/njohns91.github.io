@@ -1,8 +1,8 @@
 body
 {
 	font-family:lobster;
-	color: #FBFBFB;
-	background-color: #7FB7BE;
+	color: #FDFFFC;
+	background-color: #2191FB;
 
 	margin-left: 50px;
 	margin-right: 50px;
@@ -13,7 +13,7 @@ header
 	margin-top: 75px;
 	margin-bottom: 75px;
 	text-align: center;
-    border-color: #818AA3;
+    border-color: #FDFFFC;
 }
 
 main
@@ -22,37 +22,24 @@ main
 	margin-right: 100px;
 }
 
-h1
+h1, h2, h3
 {
 	font-family: lobster;
 	text-align: center;
 	line-height: 10px;
 }
 
-h2
-{
-  font-family: lobster;
-	text-align: center;
-	line-height: 10px;
-}
-
-h3
-{
-  font-family: lobster;
-	text-align: center;
-	line-height: 10px;
-}
 
 a
 {
-	color: #FBFBFB;
+	color: #FDFFFC;
 	font-weight: normal;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: #FBFBFB;
+	color: #39393A;
 }
 
 figure

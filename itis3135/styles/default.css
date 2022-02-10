@@ -118,14 +118,14 @@ th
 	background-color: #7C9299;
 }
 
-.manager
+tbody tr:nth-child(odd)
 {
 	background-color: #7C9299;
 }
 
-tbody tr:nth-child(odd)
+.crap_heading
 {
-	background-color: #7C9299;
+	text-align: right;
 }
 
 

@@ -2,7 +2,7 @@ body
 {
 	font-family:lobster;
 	color: #FDFFFC;
-	background-color: #AECBEB;
+	background-color: #2191fb;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -12,7 +12,8 @@ header
 	text-align: center;
 	align-items: center;
 	background-color: #71A5DE;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top: .05px;
 	
 
 }
@@ -43,11 +44,6 @@ a:hover
 	color: #39393A;
 }
 
-.hockeypic
-{
-	text-align: center;
-}
-
 
 nav
 {
@@ -68,6 +64,9 @@ footer
     margin-bottom: 75px;
     text-align: center;
 }
+
+
+
 
 .bottom-jagfooter
 {

@@ -1,7 +1,7 @@
 body
 {
 	font-family:lobster;
-	color: #FDFFFC;
+	color: #242223;
 	background-color: #2191fb;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -34,7 +34,7 @@ h1, h2, h3
 
 a
 {
-	color: #FDFFFC;
+	color: #242223;
 	font-weight: normal;
 }
 
@@ -64,9 +64,6 @@ footer
     margin-bottom: 75px;
     text-align: center;
 }
-
-
-
 
 .bottom-jagfooter
 {
@@ -107,7 +104,7 @@ table{
 
 th,td
 {
-	border:1px solid #FDFFFC;
+	border:1px solid #242223;
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;

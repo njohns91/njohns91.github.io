@@ -1,3 +1,4 @@
+/*default css*/
 body
 {
 	font-family:lobster;
@@ -80,25 +81,54 @@ footer
 	width: 15;
 }
 
-.form
+/*index page*/
+.home_paragraph
 {
 	text-align: center;
 }
 
+/*introduction page*/
+.hockey_cap
+{
+	text-align: center;
+}
+
+.intro_paragraph
+{
+	text-align: left;
+}
+
+#hockey
+{
+	max-width: 50%;
+	max-height: 50%;
+	margin-left: 215px;
+
+}
+
+/*contract page*/
 .contract 
 {
     font-family: lobster, sans-serif;
     text-align: left;
 }
 
-.athlete
-{
-	margin-left: 240px
-}
-
+/*tables page*/
 .basic_table
 {
-	text-align: left;
+	margin-left: 240px;
+
+}
+
+.employee_table
+{
+	margin-left: 240px;
+}
+
+.detail_employee
+
+{
+	margin-left: 100px;
 }
 
 table{
@@ -123,6 +153,19 @@ tbody tr:nth-child(odd)
 	background-color: #7C9299;
 }
 
+/*forms page*/
+.form
+{
+	text-align: center;
+}
+
+.athlete
+{
+	margin-left: 240px
+}
+
+
+/*crap website page*/
 .crap_heading
 {
 	text-align: right;

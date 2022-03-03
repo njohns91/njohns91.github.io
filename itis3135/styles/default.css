@@ -154,14 +154,46 @@ tbody tr:nth-child(odd)
 }
 
 /*forms page*/
-.form
+.info_form
+{
+	
+	text-align: center;
+}
+
+.top_form_title
 {
 	text-align: center;
 }
 
-.athlete
+.top_form
 {
-	margin-left: 240px
+	margin-left: 435px;
+}
+
+.middle_form_title
+{
+	text-align: center;
+}
+
+.middle_form
+{
+	margin-left: 435px;
+}
+
+.bottom_form_title
+{
+	text-align: center;
+}
+
+.bottom_form
+{
+	margin-left: 435px;
+}
+
+.submit_reset
+{
+	margin-left: 435;
+	text-align: center;
 }
 
 

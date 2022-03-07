@@ -203,6 +203,13 @@ tbody tr:nth-child(odd)
 	text-align: right;
 }
 
+/*crap website evaluation*/
+
+.website_name
+{
+	text-align: center;
+}
+
 
 
 

@@ -2,8 +2,8 @@
 body
 {
 	font-family:lobster;
-	color: #242223;
-	background-color: #2191fb;
+	color: #99D9D9;
+	background-color: #001628;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -12,7 +12,7 @@ header
 {
 	text-align: center;
 	align-items: center;
-	background-color: #71A5DE;
+	background-color: #355464;
 	padding-bottom: 10px;
 	padding-top: .05px;
 	
@@ -35,14 +35,14 @@ h1, h2, h3
 
 a
 {
-	color: #242223;
+	color: #99D9D9;
 	font-weight: normal;
 }
 
 a:hover
 {
-	text-decoration: underline;
-	color: #39393A;
+	text-decoration:underline;
+	color: #E9072B;
 }
 
 

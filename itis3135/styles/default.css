@@ -4,8 +4,8 @@ body
 	font-family:lobster;
 	color: #99D9D9;
 	background-color: #001628;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
 header
@@ -15,23 +15,40 @@ header
 	background-color: #355464;
 	padding-bottom: 10px;
 	padding-top: .05px;
+	font-size: 20px;
 	
 
 }
 
 main
 {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
-h1, h2,h3
+h1
 {
 	font-family: lobster;
 	text-align: center;
-	line-height: 10px;
+	line-height: 5px;
+	font-size: 30px;
 }
 
+h2
+{
+	font-family: lobster;
+	text-align: center;
+	line-height: 5px;
+	font-size: 40px
+}
+
+h3
+{
+	font-family: lobster;
+	text-align: center;
+	line-height: 5px;
+	font-size: 30px
+}
 
 a
 {
@@ -167,7 +184,7 @@ tbody tr:nth-child(odd)
 
 .top_form
 {
-	margin-left: 435px;
+	margin-left: 395px;
 }
 
 .middle_form_title
@@ -177,7 +194,7 @@ tbody tr:nth-child(odd)
 
 .middle_form
 {
-	margin-left: 435px;
+	margin-left: 395px;
 }
 
 .bottom_form_title
@@ -187,7 +204,7 @@ tbody tr:nth-child(odd)
 
 .bottom_form
 {
-	margin-left: 435px;
+	margin-left: 400px;
 }
 
 .submit_reset
@@ -208,14 +225,6 @@ tbody tr:nth-child(odd)
 .website_name
 {
 	text-align: center;
-}
-
-/* Project outline*/
-
-.project_overview
-{
-	text-align: left;
-
 }
 
 

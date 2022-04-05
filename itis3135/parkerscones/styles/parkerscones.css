@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*
+{
+	font-family:Quicksand;
+}
+
 body
 {
-	font-family:lobster;
 	color: #3BFCED;
 	background-color: #6F13A8;
 	margin-left: 250px;
 	margin-right: 250px;
+	font-family: Quicksand;
     
 }
 
@@ -12,7 +18,8 @@ header
 {
 	align-items: left;
     color: #3BFCED;
-
+	margin-right: 26.7%;
+	margin-left: -10%;
 }
 
 main
@@ -23,31 +30,17 @@ main
 
 h1
 {
-	font-family: lobster;
+	font-family: Quicksand;
     text-align: center;
 	line-height: 5px;
 	font-size: 75px;
 }
 
-h2
-{
-	font-family: lobster;
-	text-align: center;
-	line-height: 5px;
-	font-size: 40px
-}
-
-h3
-{
-	font-family: lobster;
-	text-align: left;
-	line-height: 5px;
-	font-size: 30px
-}
-
 a
 {
 	color: #6F13A8;
+	font-weight: 1000;
+	font-size: xx-large;
 	text-decoration: none;
 }
 
@@ -60,28 +53,8 @@ a:hover
 
 nav
 {
-	text-align: left;
-    font-size: 30px;
     background-color:#3BFCED;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-p
-{
-    font-size: 20px;
-}
-
-footer
-{
-    margin-top: 75px;
-    margin-bottom: 75px;
-    text-align: center;
-}
-
-.buttons-css, .buttons-htm5l
-{
-	height: 5;
-	width: 15;
 }

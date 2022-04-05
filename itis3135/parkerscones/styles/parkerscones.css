@@ -19,8 +19,9 @@ header
 	align-items: left;
     color: #6F13A8;
 	font-size: xx-large;
+	font-weight: bolder;
 	margin-left: auto;
-	margin-right: 390px;
+	margin-right: 352px;
 	
 }
 
@@ -41,6 +42,7 @@ h1
 a
 {
 	color: #6F13A8;
+	font-weight: bolder;
 	font-size: xx-large;
 	text-decoration: none;
 }
@@ -58,4 +60,13 @@ nav
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.parkerscones
+{
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

@@ -119,7 +119,9 @@ footer
 {
 	max-width: 50%;
 	max-height: 50%;
-	margin-left: 215px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 

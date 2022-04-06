@@ -58,6 +58,15 @@ p
 	font-family: Quicksand;
 }
 
+footer
+{
+	text-align: center;
+	font-weight: 500;
+	font-size: 10px;
+	font-family: Quicksand;
+	color: #3BFCED;
+}
+
 a
 {
 	color: #6F13A8;
@@ -214,10 +223,3 @@ nav
 	font-family: Quicksand;
 }
 
-.johnsonfooter
-{
-	text-align: center;
-	font-weight: 700;
-	font-size: 10px;
-	font-family: Quicksand;
-}

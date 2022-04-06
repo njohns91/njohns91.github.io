@@ -21,7 +21,7 @@ header
 	font-size: xx-large;
 	font-weight: 1000;
 	margin-left: auto;
-	margin-right: 352px;
+	margin-right: 37%;
 	
 }
 
@@ -97,8 +97,8 @@ nav
 .ncoutline
 {
 	padding-left: 35%;
-	width: 60%;
-	height: 60%;
+	width:  50%;
+	height: 50%;
 }
 
 .parkerbackground
@@ -148,4 +148,35 @@ nav
 {
 	width:  60%;
 	height: 60%;
+}
+
+.social
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	font-family: Quicksand;
+}
+
+
+.twitter
+{
+	width:  16%;
+	height: 16%;
+	margin-left: 10%;
+}
+
+.twitch
+{
+	width:  13%;
+	height: 13%;
+	margin-left: 10%;
+}
+
+.discord
+{
+	margin-left: 10%;
+	display: inline-block;
+	width:  25%;
+	height: 25%
 }

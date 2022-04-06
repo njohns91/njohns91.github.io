@@ -70,7 +70,7 @@ nav
 
 p
 {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 footer
@@ -97,7 +97,14 @@ footer
 	height: 5;
 	width: 15;
 }
-
+/*main page*/
+.home
+{
+	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	font-family: lobster;
+}
 /*index page*/
 .home_paragraph
 {

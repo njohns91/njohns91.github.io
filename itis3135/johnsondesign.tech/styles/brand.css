@@ -24,11 +24,18 @@ main
 	margin-right: 100px;
 }
 
-h1, h2, h3
+h1
 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
 	line-height: 10px;
+}
+
+h3
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: left;
+	line-height: 10px;	
 }
 
 
@@ -83,4 +90,11 @@ align-items: center;
 .intro
 {
 	font-size: 20px;
+}
+
+.slogan
+{
+	font-size: 20px;
+	text-align: center;
+	padding-right: 11%;
 }

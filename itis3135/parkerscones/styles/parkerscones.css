@@ -19,7 +19,7 @@ header
 	align-items: left;
     color: #6F13A8;
 	font-size: xx-large;
-	font-weight: bolder;
+	font-weight: 1000;
 	margin-left: auto;
 	margin-right: 352px;
 	
@@ -37,6 +37,7 @@ h1
     text-align: center;
 	line-height: 5px;
 	font-size: 75px;
+	font-weight: 1000;
 }
 
 h2
@@ -45,21 +46,19 @@ h2
     text-align: center;
 	line-height: 5px;
 	font-size: 50px;
+	font-weight: 1000;
 }
 
 p
 {
 	font-family: Quicksand;
-	line-height: 5px;
-	font-size: 35px;
 }
 
 a
 {
 	color: #6F13A8;
-	font-weight: bolder;
-	font-size: xx-large;
 	text-decoration: none;
+	font-size: xx-large;
 }
 
 a:hover
@@ -77,6 +76,7 @@ nav
     padding-bottom: 10px;
 }
 
+
 .parkerscones
 {
 	width: 20%;
@@ -89,4 +89,63 @@ nav
 .home
 {
 	text-align: center;
+	font-weight: 700;
+	font-size: 35px;
+	font-family: Quicksand;
+}
+
+.ncoutline
+{
+	padding-left: 35%;
+	width: 60%;
+	height: 60%;
+}
+
+.parkerbackground
+{
+	font-size: 20px;
+	padding-right: 50%;
+	font-weight: 700;
+}
+
+.hockeybackground
+{
+	font-size: 20px;
+	padding-left: 55%;
+	font-weight: 700;
+}
+
+
+.hockeypic
+{
+	width:  60%;
+	height: 60%;
+}
+
+.diskgolfbackground
+{
+	font-size: 20px;
+	padding-right: 50%;
+	font-weight: 700;
+}
+
+
+.diskpic
+{
+	padding-left: 55%;
+	width:  25%;
+	height: 25%;
+}
+
+.theend
+{
+	font-size: 20px;
+	padding-left: 55%;
+	font-weight: 700;
+}
+
+.wine
+{
+	width:  60%;
+	height: 60%;
 }

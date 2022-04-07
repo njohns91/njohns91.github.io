@@ -22,9 +22,10 @@
           header
           {
             text-align: center;
-	        align-items: center;
+	          align-items: center;
             padding-left: 50px;
-	        font-size: 25px;
+	          font-size: 25px;
+            padding-top: 2%;
             }
 
             footer
@@ -58,59 +59,89 @@
             color:#4C5B5C;
             font-size: 20px;
             }
-          img
-          {text-align: center;
-            }
           a
           {text-decoration: none;
             color:#E8F1F2;
             }
+
           .nav
           {
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding-top: 5%;
             overflow: hidden;
-            background-color: #4C5B5C;
             text-align: center;
+            position: fixed;
+            font-weight: 800;
             
           }
         .nav li 
           {
               float: left;
+              text-decoration:none;
             }
           li a 
           {
             display: block;
-            color: #F1F7ED;
+            color: #4C5B5C;
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            }
+            padding-bottom: 5%;
+          }
+
+          .nav li:hover
+          {
+            text-decoration: line-through ;
+          }
+
+        .hockey, .ways, #how, .different, .pro{
+          padding-left: 15%;
+          font-size: 35px;
+          font-weight: 700;
+          color: #4C5B5C;
+          text-decoration: none;
+        }
+
+        .gear
+        {
+          padding-top: 5%;
+        }
+
+        #how li{
+          font-size: 20px;
+          font-weight: 700;
+          color: #4C5B5C;
+          text-decoration: none;
+        }
+
+        .different li
+        {
+          font-size: 20px;
+          font-weight: 700;
+          color: #4C5B5C;
+          text-decoration: none;
+        }
         </style>
   </head>
 
   <body>
     <header>
       <ul class="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About The Sport</a></li>
-        <li><a href="#how">How To Play</a></li>
-        <li><a href="#leages">Different Leages</a></li>
+        <li><a href="#home">Hockey</a></li><br>
+        <li><a href="#about">About The Sport</a></li><br>
+        <li><a href="#how">How To Play</a></li><br>
+        <li><a href="#leagues">Different leagues</a></li><br>
         <li><a href="#local">Local Teams</a></li>
         
       </ul>
     </header><br>
 
     <main>
-        <a id ="top">
-            <br>
-          </a>
-          <section>
-            <br>
+
+      <a id = "home"></a><br>
 
         <h2>Home</h2>
-        <div class = "home">
+
+        <div class = "hockey">
             <p> Today I am going to teach about the sport of Hockey. I have been playing hockey for about 15 years. Hockey has given me so much like the ability to meet
                 new people, travel around the country, and spend quality time with my family. It has also showed me how to work together with other people and to never
                 give up.
@@ -123,7 +154,26 @@
       </a>
        <section>
            <h2>About The Sport</h2>
-           <br>        
+
+           <div class = "ways">
+            <p> To start there are 3 main ways people play hockey. The most popular way you will see it being played is one ice. You can also play it on a roller rink and in the 
+              street. Today I will go through those three main ways of playing the game.
+            </p> <br>
+            <p>The first way I will explain it is when you play on an ice rink. Both teams would be made up of 18 players and 2 goalies. There are 12 forwards and 6 defenceman.
+              Each team will have a group of 5 players on the ice along with one goalie at all times unless one team gets a penatly. If they get a penatly that player goes and sits
+              in the penatly box for 2 minunites and their team plays down a guy for those two minutes. The game is over after you play 3 perioeds that are 20 minutes long with the
+              clock stopping every time the whistle blows.
+            </p><br>
+
+            <p>Another way to play is on a roller hockey rink. The rules are basically the same expect each team usually has 8 players and 1 goalie. You play with 4 guys on the rink
+              instead of 5. There is also no offisde or icing in roller hockey.The game is over after you play 3 perioeds that are 15 minutes long with the clock stopping every time
+               the whistle blows.
+            </p><br>
+            
+            <p>The final way most people play hockey is either in the street or in the drive way. For street hockey you just divide everyone up evenly and play until a certain  score.
+              You will mainly see it being played while tail-gating for hockey games.
+            </p>
+          </div>
        </section>
 
        <a id ="how">
@@ -131,15 +181,62 @@
       </a>
       <section>
         <h2>How To Start Playing Hockey</h2>
-        <br>
+        
+        <div id = "how">
+          <p> The best way to start playing is to go to your local ice rink and ask if they have a learn to skate/learn to play. There they will teach you how to play the game.
+            After you do that you will need to order the hockey gear
+
+            <div class = "gear"> <p>The main gear you will need is:</p> </div>
+            <ul>
+              <li>Helmet</li>
+              <li>Gloves</li>
+              <li>Stick</li>
+              <li>Skates</li>
+              <li>Shin Pads</li>
+              <li>Elbow Pads</li>
+              <li>Shoulder Pads</li>
+            </ul>
+
+          </p>
+
+        </div>
       </section>
 
-       <a id ="leages">
+       <a id ="leagues">
         <br>
       </a>
           <section>
-              <h2>Different Leagles</h2>
-              <br>
+              <h2>Different leagues</h2>
+              <div class = "different">
+                <p>There are main different leages all over the world. So I will mainly just explain what they are in the U.S.
+                </p>
+
+                <p>To start there are the pro leages which are:</p>
+                <ul>
+                  <li>National Hockey League</li>
+                  <li>American Hockey League</li>
+                  <li>East Coast Hockey League</li>
+                  <li>Southern Professional Hockey League</li>
+                  <li>Federal Prospects Hockey League</li>
+                </ul><br>
+
+                <p>Next is college which has: </p>
+                <ul>
+                  <li>NCAA</li>
+                  <li>ACHA</li>
+                  <li>CHF</li>
+                </ul><br>
+
+                <p>Below that is Juniors:</p>
+                <ul>
+                  <li>NAHL</li>
+                  <li>USHL</li>
+                  <li>NA3HL</li>
+                </ul><br>
+
+                <p>Then there is youth hockey which each state has there own version of it.</p>
+
+              </div>
           </section>
 
 
@@ -148,7 +245,14 @@
           </a>
           <section>
               <h2>Local Pro Teams</h2>
-              <br>
+              <div class = "pro">
+                <p>In North Carolina there are 4 pro teams. They have a team in the NHL called The Carolina Hurricanes who play in Raleigh. Then they have an AHL team called the Charlotte Checkers.
+                  North Carolina has a SPHL team called the Fayetteville Marksman. Finally there is a FHL team called the carolina Thunderbirds who play out of Winston-Salem.
+                </p>
+
+                <p>I have personaly been to both the Carolina Hurricanes and Charlotte Checkers game. They both have a great event to go to with your family.
+                </p>
+              </div>
               
           </section>
           

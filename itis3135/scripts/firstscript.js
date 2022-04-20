@@ -6,18 +6,35 @@ function hello() {
     let emotion = document.getElementById("emotion").value;
     document.getElementById("hello").innerHTML = ("<p>The Navy Jaguars welecomes you, " + name + "! You are feeling " + emotion + " today!")
 }
+
 function question() {
     document.getElementById("question").innerHTML = ("Ehhh maybe")
 }
-function joke2() {
-    document.getElementById("joke2").innerHTML = ("It was two tired")
+
+function jaguar() {
+    document.getElementById("jaguar").innerHTML = ("I hope you haven't. The answer is no!")
 }
-function joke3() {
-    document.getElementById("joke3").innerHTML = ("He got a hole in one")
+
+function math() {
+    var answer = (6+4)*7+1
+    document.getElementById("math").innerHTML = "The answer is: " + answer;
 }
-function joke4() {
-    document.getElementById("joke4").innerHTML = ("He was stuck in a vicious cycle.")
+
+function plans() {
+    let myinput = prompt (
+        "Do you have any plans this weekend? Yay or Nay?"
+    );
+
+    let weekend = "";
+
+    if(myinput == "Yay" || "yay") {
+        weekend = "I hope you have a fun time going out!"
+    } else {
+        weekend = "Well I guess theres always next weekend..."
+    }
+    document.getElementById("plans").innerHTML = weekend
 }
-function fact() {
-    document.getElementById("fact").innerHTML = ("A group of Tigers are called an ambush or streak.")
+
+function here() {
+    alert ("HI!")
 }

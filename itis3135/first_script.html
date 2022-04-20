@@ -4,12 +4,58 @@
         <meta charset= "utf-8">
         <title>Nicholas Johnson | ITIS 3135 | First Script</title>
         <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
+        <script src="scripts/firstscript.js"></script>
     </head>
     <body>
       <header>
         <div data-include = "components/header.html"></div>
       </header>
         <br> 
+
+        <main>
+          <h2>First Scripts</h2>
+          <h3>
+              <button type="button" onclick="scriptTest()">Try this script!</button>
+          </h3>
+          <h3>It is <span id="datetime"></span></h3>
+          <script>
+              var dt = new Date();
+              document.getElementById("datetime").innerHTML = dt.toLocaleString();
+          </script><br>
+
+          <p>Name: <input type="text" id="name"> <br> Emotional well being: <input type="text" name="emotion" id="emotion"> <br>
+              <button onclick="hello();" type="button" name="name" id="button1">Submit</button>
+          </p>
+          <p id="hello"></p><br>
+         
+          <p>
+              Do you think I will be able to do this right?
+              <button onclick="question();" type="button" name="question" id="questionbutton">Take a guess</button>
+          </p>
+          <p id="question"></p><br>
+          
+          <p>
+              Have you ever seen a navy jaguar?
+              <button onclick="jaguar();" type="button" name="jaguar" id="jaguar button">Yes or No?</button>
+          </p>
+          <p id="jaguar"></p><br>
+          
+          <p>
+              What is (6+4)*7+1?
+              <button onclick="math();" type="button" name="math" id="mathbutton">Click here if you can not do math</button>
+          </p>
+          <p id="math"></p><br>
+          
+          <p>
+              Do you have plans for the weekend?
+              <button onclick="plans();" type="button" name="plans" id="plansbutton">Well do you?</button>
+          </p>
+          <p id="plans"></p><br>
+          
+          <p> <button onclick="here();" type="button" name="here" id="herebutton">Click Here</button> </p>
+         
+          <p id="here"></p><br>
+      </main>
 
 
 

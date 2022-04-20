@@ -27,11 +27,20 @@ function plans() {
 
     let weekend = "";
 
-    if(myinput == "Yay" || "yay") {
+    if(myinput == "Yay") {
         weekend = "I hope you have a fun time going out!"
-    } else {
-        weekend = "Well I guess theres always next weekend..."
     }
+    if(myinput == "yay") {
+        weekend = "I hope you have a fun time going out!"
+    }
+
+    if(myinput == "Nay") {
+        weekend = "Well I guess there always next weekend..."
+    }
+    if(myinput == "nay") {
+        weekend = "Well I guess there always next weekend..."
+    }
+    
     document.getElementById("plans").innerHTML = weekend
 }
 

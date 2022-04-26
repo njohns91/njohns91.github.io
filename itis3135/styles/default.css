@@ -4,8 +4,9 @@ body
 	font-family:lobster;
 	color: #99D9D9;
 	background-color: #001628;
-	margin-left: 250px;
-	margin-right: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header
@@ -141,19 +142,19 @@ footer
 /*tables page*/
 .basic_table
 {
-	margin-left: 240px;
+	margin-left: 475px;
 
 }
 
 .employee_table
 {
-	margin-left: 240px;
+	margin-left: 475px;
 }
 
 .detail_employee
 
 {
-	margin-left: 100px;
+	margin-left: 335px;
 }
 
 table{
@@ -192,7 +193,7 @@ tbody tr:nth-child(odd)
 
 .top_form
 {
-	margin-left: 395px;
+	margin-left: 650px;
 }
 
 .middle_form_title
@@ -202,7 +203,7 @@ tbody tr:nth-child(odd)
 
 .middle_form
 {
-	margin-left: 395px;
+	margin-left: 650px;
 }
 
 .bottom_form_title
@@ -212,7 +213,7 @@ tbody tr:nth-child(odd)
 
 .bottom_form
 {
-	margin-left: 400px;
+	margin-left: 650px;
 }
 
 .submit_reset
@@ -242,6 +243,8 @@ tbody tr:nth-child(odd)
 {
 	font-size: 20px;
 	text-align: left;
+	display: block;
+	padding-left: 10%;
 }
 
 

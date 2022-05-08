@@ -8,7 +8,7 @@ body
 {
 	color: #3BFCED;
 	background-color: #6F13A8;
-	margin-left: 250px;
+	margin-left: 150px;
 	margin-right: 250px;
 	font-family: Quicksand;
     
@@ -18,10 +18,18 @@ header
 {
 	align-items: left;
     color: #6F13A8;
-	font-size: xx-large;
+	font-size: large;
 	font-weight: 1000;
 	margin-right: 32%;
 	
+}
+
+header a
+
+{
+	color: #6F13A8;
+	text-decoration: none;
+	font-size: x-large;
 }
 
 .normal
@@ -42,6 +50,7 @@ h1
 	line-height: 5px;
 	font-size: 75px;
 	font-weight: 1000;
+	;
 }
 
 h2
@@ -87,8 +96,28 @@ nav
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+	margin-right: 240px;
 }
 
+#johnsonfooter
+{
+	color: #3BFCED;
+	text-decoration: none;
+	font-size: large;
+}
+
+#johnsonfooter a
+{
+	color: #3BFCED;
+	text-decoration: none;
+	font-size: large;
+}
+
+#johnsonfooter a:hover
+{
+	color: #3BFCED;
+	text-decoration: underline;
+}
 
 .parkerscones
 {
@@ -199,12 +228,22 @@ nav
 	text-align: center;
 }
 
-.frag
+.frag a
 {
 	text-align: left;
 	font-weight: 700;
 	font-size: 35px;
 	font-family: Quicksand;
+	color: #3BFCED;
+}
+
+#ree a
+{
+	text-align: left;
+	font-weight: 700;
+	font-size: 35px;
+	font-family: Quicksand;
+	color: #3BFCED;	
 }
 
 #setupwide

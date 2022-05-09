@@ -32,9 +32,15 @@ header a
 	font-size: x-large;
 }
 
-.normal
+.socialnav
 {
 	margin-right: 32.8%
+}
+
+.normal
+
+{
+	margin-right: 32%
 }
 
 main

@@ -201,26 +201,32 @@ nav
 }
 
 
+.insta
+{
+	width: 75%;
+	height: 75%;
+	padding: 5%;
+}
+
 .twitter
 {
-	width:  16%;
-	height: 16%;
-	margin-left: 5%;
+	width:  80%;
+	height: 80%;
+	padding: 5%;
 }
 
 .twitch
 {
-	width:  13%;
-	height: 13%;
-	margin-left: 5%;
+	width:  80%;
+	height: 85%;
+	padding: 5%;
 }
 
 .discord
 {
-	margin-left: 5%;
-	display: inline-block;
-	width:  25%;
-	height: 25%
+	width:  90%;
+	height: 60%;
+	padding: 5%;
 }
 
 .warning
@@ -261,4 +267,51 @@ nav
 	font-size: 35px;
 	font-family: Quicksand;
 }
+
+#accordion
+{
+	margin-right: 999px;
+	font-size: large;
+}
+
+#accordion .ui-state-active 
+{ 
+	background-color: #3BFCED;
+	color: #6F13A8;
+	font-weight: bolder;
+}
+
+/*Got from https://jqueryui.com/accordion/ */
+.ui-accordion .ui-accordion-header {
+	display: block;
+	padding: 10px;
+	font-size: 100%;
+	margin-right: 50px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 40px;
+	border-top: 0;
+	overflow: auto;
+}
+
+.ui-widget-content {
+	
+	background: #6F13A8;
+}
+
+.ui-button.ui-state-disabled:active {
+	
+	background: #6F13A8;
+	font-weight: bolder;
+	color: #3BFCED;
+	
+}
+.ui-state-hover
+ {
+	background: #3BFCED;
+	font-weight: bolder;
+	color: #6F13A8;
+	
+}
+/*No longer from https://jqueryui.com/accordion/ */
 
